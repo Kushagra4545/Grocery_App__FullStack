@@ -4,6 +4,10 @@ A modern full-stack grocery delivery platform inspired by quick-commerce experie
 
 > Built as a production-style MERN-adjacent application with React, TypeScript, Express, Prisma, Neon PostgreSQL, Stripe, Cloudinary, Inngest, and email notifications.
 
+## Demo URL
+
+Live demo: https://grocery-app-full-stack-9l4n.vercel.app/
+
 ## Highlights
 
 - Customer storefront with categories, product listing, search, flash deals, product detail pages, and cart
