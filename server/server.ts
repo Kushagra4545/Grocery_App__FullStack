@@ -25,6 +25,15 @@ const port = process.env.PORT || 5000;
 app.get("/", (req: Request, res: Response) => {
     res.send("Server is Live!");
 });
+
+app.get("/api/health", (req: Request, res: Response) => {
+    res.status(200).json({
+        status: "ok",
+        service: "grocery-delivery-api",
+        timestamp: new Date().toISOString(),
+    });
+});
+
 app.use("/api/auth", authRouter);
 app.use("/api/products", productRouter);
 app.use("/api/upload", uploadRouter);
